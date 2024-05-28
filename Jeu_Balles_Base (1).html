@@ -10,9 +10,7 @@ h1{position:absolute;top:-7px; left:320px; z-index:2;}
 
 <script>
 //var globale
-	
-var BouleBleue = document.getElementById("idBouleBleue");
-	
+		
 var speed = 500;
 function principale(){
 	//Ajout d'un écouteur sur les touches
@@ -26,6 +24,9 @@ function bouger(){
 	//Code à créer pour faire bouger la boule enemy
 	
 }
+	function ballblue(){
+			var ballX = parseInt(document.getElementById('idBouleBleue').getAttribute("cx"));
+		   	var ballY = parseInt(document.getElementById('idBouleBleue').getAttribute("cy"));
 
 
 function deplacement(evt) {
