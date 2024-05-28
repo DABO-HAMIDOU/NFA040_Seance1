@@ -24,7 +24,7 @@ function bouger(){
 	case 37:
 		ballX -= 15;
                     if(ballX<15){ballX=15;}
-		document.getElementById('ball').setAttribute("cx", ballX);
+		document.getElementById('balleblue').setAttribute("cx", ballX);
 }
 
 
@@ -34,7 +34,7 @@ function deplacement(evt) {
            switch (evt.keyCode) {
                 // Gauche 
                 case 37:
-			ballX -= 15;
+			
                     	if(ballX<15){ballX=15;}
 			document.getElementById('ball').setAttribute("cx", ballX);
 			break;
