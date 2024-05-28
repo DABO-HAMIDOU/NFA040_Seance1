@@ -31,8 +31,8 @@ function bougerabx(){
 function bougerord(){
 	var ballY = parseInt(document.getElementById('ball').getAttribute("cy"));
 	
-		ballY -= 15;
-                    if(ballX<15){ballX=15;}
+		ballY = 15;
+                    if(ballY<15){ballY=15;}
 		document.getElementById('ball').setAttribute("cy", ballY);
 }
 
