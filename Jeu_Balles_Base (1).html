@@ -10,6 +10,9 @@ h1{position:absolute;top:-7px; left:320px; z-index:2;}
 
 <script>
 //var globale
+	
+var BouleBleue = document.getElementById("idBouleBleue");
+	
 var speed = 500;
 function principale(){
 	//Ajout d'un écouteur sur les touches
@@ -68,7 +71,8 @@ function deplacement(evt) {
 <body onload="principale()">
 	<h1>Jeux Javascript</h1>
 	<svg id="zonedejeux">
-	<circle cx="450" cy="200" r="15" fill="blue" id="ball" />
+	<circle cx="450" cy="200" r="15" fill="red" id="ball" />
+	<circle cx="450" cy="200" r="15" fill="blue" id="idBouleBleue" />
 	
 	</svg>
 <body>
