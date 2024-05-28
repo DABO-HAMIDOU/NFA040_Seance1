@@ -20,13 +20,7 @@ function principale(){
 	
 }
 function bouger(){
-
-	//Code à créer pour faire bouger la boule enemy
-	
-}
-function ballblue(){
-			var ballX = parseInt(document.getElementById('idBouleBleue').getAttribute("cx"));
-		   	var ballY = parseInt(document.getElementById('idBouleBleue').getAttribute("cy"));
+	var ballX = parseInt(document.getElementById('ball').getAttribute("cx"));
 }
 
 
@@ -73,8 +67,8 @@ function deplacement(evt) {
 <body onload="principale()">
 	<h1>Jeux Javascript</h1>
 	<svg id="zonedejeux">
-	<circle cx="450" cy="200" r="15" fill="red" id="ball" />
-	<circle cx="450" cy="200" r="15" fill="blue" id="idBouleBleue" />
+	<circle cx="450" cy="885" r="15" fill="red" id="ball" />
+	
 	
 	</svg>
 <body>
