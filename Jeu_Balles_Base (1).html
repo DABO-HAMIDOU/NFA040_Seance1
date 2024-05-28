@@ -36,7 +36,6 @@ function deplacement(evt) {
 			document.getElementById('ball').setAttribute("cx", ballX);
 			break;
                 // Droite 
-                case 39:
                     case 39:
                     ballX +=15;
                     if(ballX>885){ballX=885;}
@@ -69,7 +68,7 @@ function deplacement(evt) {
 <body onload="principale()">
 	<h1>Jeux Javascript</h1>
 	<svg id="zonedejeux">
-	<circle cx="450" cy="200" r="15" fill="tomato" id="ball" />
+	<circle cx="450" cy="200" r="15" fill="blue" id="ball" />
 	
 	</svg>
 <body>
