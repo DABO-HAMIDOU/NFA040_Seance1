@@ -165,7 +165,7 @@ nav input[type=checkbox]:checked + .nav-list{
 
 /*------------mobile parallax-div------------*/
 #parallax-div{
-    background: url(../images/parallax.jpg);
+    background: url(../parallax.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
