@@ -69,7 +69,7 @@ nav input[type=checkbox]:checked + .nav-list{
 /*--------------mobile welcome-section--------------*/
 #welcome-section{
     height: 100vh;
-    background: url(../images/welcome.jpg);
+    background: url(../welcome.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ nav input[type=checkbox]:checked + .nav-list{
 
 /*------------mobile parallax-div------------*/
 #parallax-div{
-    background: url(../images/parallax.jpg);
+    background: url(../parallax.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
